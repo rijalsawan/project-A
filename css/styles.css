@@ -1,0 +1,162 @@
+
+body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+*{
+  font-family: 'Poppins', sans-serif;
+
+}
+.justify{
+  justify-content: center;
+}
+.navbar{
+  padding-left: 55px;
+}
+.Bold{
+  font-weight: bolder;
+}
+
+.my-photo{
+  height: 320px;
+  width: 340px;
+  display: block;
+  margin-left: auto;
+  margin-right: 0px;
+  border-radius: 100%;
+
+}
+.horizontal-line{
+  margin-right: 80px;
+   border-top: 3px solid black;
+}
+.Spacing{
+  padding-bottom: 40px;
+}
+.paragraph{
+  width: 90%;
+  line-height: 30px;
+}
+.middle-description{
+    padding-top: 100px;
+    width: 90%;
+    padding-bottom: 70px;
+}
+.middle-description-2{
+  background-color: #e0e0e0;
+  padding-top: 70px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 40px;
+}
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.feature-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #fff;
+  border-radius: .75rem;
+}
+
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+}
+.icon-link > .bi {
+  margin-top: .125rem;
+  margin-left: .125rem;
+  transition: transform .25s ease-in-out;
+  fill: currentColor;
+}
+.icon-margin{
+  margin-right: 15px;
+}
+.icon-link:hover > .bi {
+  transform: translate(.25rem);
+}
+
+.icon-square {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  border-radius: .75rem;
+}
+
+.rounded-4 { border-radius: .5rem; }
+.rounded-5 { border-radius: 1rem; }
+
+.text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
+.text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
+.text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
+
+.card-cover {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.progressbar{
+  margin-top: 10px;
+}
+.navHeading{
+  padding-left: 50px;
+}
+.top-description{
+  text-align: center;
+  padding-bottom: 100px;
+  color: #fff;
+}
+.hello{
+  font-weight: 700;
+  padding-bottom: 4px;
+}
+.web-developer{
+  padding-top: 7px;
+  padding-bottom: 15px;
+}
+.top-portion{
+  background-image: url("images/DARK-LANDSCAPES.jpg");
+  background-size: cover;
+  padding-bottom: 127px;
+}
+.social-icons{
+  padding-top: 100px;
+  padding-left: 65px;
+}
+.fab{
+  color: #bec6d1;
+  font-size: 1.5rem;
+
+}
+.fab:hover{
+  color: white;
+}
+.Designer{
+  font-size: 3.5rem;
+}
+.fal{
+  color:#bec6d1;
+  font-size: 1.5rem;
+}
+.fal:hover{
+  color: white;
+}
